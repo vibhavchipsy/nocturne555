@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vito's Pizzeria & cafe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" href="assets/image/favicon.png" rel="icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="menu-main flt">
+        <div class="menu-header flt">
+            <div class="container">
+                <div class="row">
+                    <div class="menu-header-img flt">
+                        <div class="col-sm-3">
+                            <div class="header_logo flt">
+                                <a href="index.html">
+                                    <img src="assets/image/viot-logo.png" class="img-responsive" alt="logo-image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="viewfood-button flt">
+                                <a class="default-btn " href="food-menu.html">Food Menu</a>
+                                <a class="default-btn " href="pizza-menu.html">Pizza and Calzones</a>
+                                <a class="default-btn " href="bar-menu.html">Bar Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="barmenu_area flt">
+            <div class="container">
+                <div class="food-img flt">
+                    <img src="assets/image/brewage2.jpg" class="img-responsive">
+                </div>
+                <div class="food-img flt">
+                    <img src="assets/image/brewage1.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- <script>
+            const slider = document.querySelector('.items');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+    
+            slider.addEventListener('mousedown', (e) => {
+                isDown = true;
+                slider.classList.add('active');
+                startX = e.pageX - slider.offsetLeft;
+                scrollLeft = slider.scrollLeft;
+            });
+            slider.addEventListener('mouseleave', () => {
+                isDown = false;
+                slider.classList.remove('active');
+            });
+            slider.addEventListener('mouseup', () => {
+                isDown = false;
+                slider.classList.remove('active');
+            });
+            slider.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - slider.offsetLeft;
+                const walk = (x - startX) * 3; //scroll-fast
+                slider.scrollLeft = scrollLeft - walk;
+                console.log(walk);
+            });
+        </script> -->
+</body>
+
+</html>
