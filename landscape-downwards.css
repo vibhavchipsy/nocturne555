@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .image-container img {
     width: 100vw;
 }
