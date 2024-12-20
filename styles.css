@@ -1,3 +1,9 @@
 .image-container img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .image-container img {
+    height: 100vh;
+  }
+}
