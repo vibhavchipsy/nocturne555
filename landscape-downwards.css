@@ -1,0 +1,8 @@
+.image-container img {
+    width: 100%;
+}
+
+.landscape-downwards {
+    display: flex;
+    flex-direction: row-reverse;
+}
